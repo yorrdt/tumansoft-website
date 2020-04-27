@@ -1,0 +1,301 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	background-color: #f8f9f9;
+}
+
+@media screen and (max-width: 800px){
+	#nav {
+		display: none;
+	}
+}
+
+
+.toppic {
+	position: relative;
+    color: #fff;
+	padding-top: 70px;
+}
+
+.bottom-right {
+	position: absolute;
+    bottom: 8px;
+    right: 16px;
+	
+	font-size: 40pt;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+#header_container {
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	background: #fff;
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+	z-index: 3;
+}
+
+.logo {
+	display: inline-table;
+	margin-top: 9px;
+	margin-left: 10%;
+}
+
+
+#nav {
+	float: right;
+	margin-top: 28px;
+	margin-right: 10%;
+}
+
+#nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav li {
+	display: inline;
+}
+
+#nav a {
+	text-decoration: none;
+	
+	outline: none;
+	display: block;
+}
+
+#nav a:hover {
+	color: #4d96f3;
+}
+
+.topmenu a {
+	color: #333;
+}
+
+.topmenu {
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.topmenu > li {
+  float: left;
+  position: relative;
+}
+
+.topmenu li:last-child { margin: 0; }
+
+.company_submenu {
+	text-transform: none;
+	background: #fff;
+	position: absolute;
+	width: 185px;
+	opacity: 0;
+	transform: scaleY(0);
+	margin: 0;
+	left: -15px;
+}
+
+.company_submenu a {
+	color: #777;
+	text-align: left;
+	padding: 12px 15px;
+	border: 0.1px solid rgba(0, 0, 0,.1);
+}
+
+.company_submenu li:last-child a { margin: 0; }
+
+.topmenu > li:hover .company_submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+
+.projects_submenu {
+	text-transform: none;
+	background: #fff;
+	position: absolute;
+	width: 185px;
+	opacity: 0;
+	transform: scaleY(0);
+	margin: 0;
+	left: -15px;
+}
+.projects_submenu a {
+	color: #777;
+	text-align: left;
+	padding: 12px 15px;
+	border: 0.1px solid rgba(0, 0, 0,.1);
+}
+
+.projects_submenu li:last-child a { margin: 0; }
+
+.topmenu > li:hover .projects_submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.career_submenu {
+	text-transform: none;
+	background: #fff;
+	position: absolute;
+	width: 185px;
+	opacity: 0;
+	transform: scaleY(0);
+	margin: 0;
+	left: -15px;
+}
+.career_submenu a {
+	color: #777;
+	text-align: left;
+	padding: 12px 15px;
+	border: 0.1px solid rgba(0, 0, 0,.1);
+}
+
+.career_submenu li:last-child a { margin: 0; }
+
+.topmenu > li:hover .career_submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+#content_container {	
+	padding: 0;
+}
+
+.articles_container {
+	line-height: 1.5;
+	padding-top: 50px;
+}
+
+.articles_container h1 { 
+	text-align: center;
+	font-size: 35pt;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #222;
+}
+
+.articles_container p {
+	color: #666;
+	font-size: 15pt;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+.article_one {
+	padding-bottom: 25px;
+	padding-top: 20px;
+}
+
+.article_header_one {
+	
+}
+
+.article_text_one {
+	padding: 50px 10px 60px 10px; 
+}
+
+
+.article_two {
+	background-color: #fff;
+}
+
+.article_header_two {
+	padding-top: 70px;
+}
+
+.article_text_two {
+	padding: 50px 10px 50px 10px; /*top left bottom right*/
+	text-align: center;
+}
+
+.article_text_two p {
+	padding-bottom: 40px;
+}
+
+.article_text_two h1 {
+	text-transform: none;
+	padding-bottom: 20px;
+}
+
+.article_proj_one img {
+	display:block;
+	margin: auto;
+}
+
+.article_proj_one img:hover {
+	width: 60%;
+	height: 60%;
+}
+
+
+.article_thr {
+	
+}
+
+.article_header_thr {
+	padding-top: 50px;
+}
+
+.article_text_thr {
+	padding: 50px 10px 60px 10px; 
+}
+
+.article_text_thr h2 {
+	padding-left: 10%;
+	padding-bottom: 10px;
+}
+
+.article_text_thr ul {
+	padding-left: 15%;
+}
+
+.article_text_thr li {
+	color: #666;
+	font-size: 15pt;
+	line-height: 1.5;
+}
+
+.article_text_thr li:last-child { padding-bottom: 20px; }
+
+
+#footer_container {
+	background: #37474f;
+	color: #bbb;
+	position: fixed
+	width: 100%;
+}
+
+.contacts_one {
+	margin: 0px;
+	padding-top: 2%;
+	text-align: center;
+}
+
+.contacts_one p {
+	padding-bottom: 5px;
+}
+
+.contacts_one a {
+	color: #ddd;
+	text-decoration: none;
+}
+
+.contacts_one a:hover {
+	text-decoration: underline;
+}
+
+.copyright p {
+	padding-top: 3%;
+	text-align: center;
+	padding-bottom: 2%;
+}

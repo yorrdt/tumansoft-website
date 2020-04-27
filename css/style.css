@@ -1,0 +1,285 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100%;
+}
+
+html, body {
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	background-color: #f8f9f9;
+}
+
+@media screen and (min-width: 900px;) {
+	
+}
+
+#header_container {
+	background: #fff;
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+	z-index: 1000;
+	left: 0;
+	top: 0;
+}
+
+.ul {
+	display: none;
+}
+
+.mburger {
+	top: 6px;
+	right: 4%;
+	position: absolute;
+}
+
+.mm-menu {
+	--mm-color-background: #fff;
+	--mm-color-background-emphasis: #ddd;
+	--mm-color-text: #000;
+}
+
+.logo {
+	display: inline-table;
+	margin-top: 9px;
+	margin-left: 6%;
+}
+
+.nav {
+	float: right;
+	margin-top: 17px;
+	margin-right: 6%;
+}
+
+.nav ul {
+	list-style: none;
+}
+
+.nav a {
+	text-decoration: none;
+	
+	outline: none;
+	display: block;
+}
+
+.nav a:hover {
+	color: #4d96f3;
+}
+/*
+.topmenu a {
+	color: #333;
+}
+
+.topmenu {
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+
+.topmenu > li {
+	float: left;
+	position: relative;
+}
+
+.company_submenu {
+	text-transform: none;
+	background: #fff;
+	position: absolute;
+	width: 185px;
+	opacity: 0;
+	transform: scaleY(0);
+	margin: 0;
+	left: -15px;
+}
+
+.company_submenu a {
+	color: #777;
+	text-align: left;
+	padding: 12px 15px;
+}
+
+.company_submenu:last-child { 
+	border-bottom-style: solid;
+	border-bottom-color: #4d96f3;
+	border-bottom-width: 4px;
+}
+
+.topmenu > li:hover .company_submenu {
+	opacity: 1;
+	transform: scaleY(1);
+}
+
+
+.projects_submenu {
+	text-transform: none;
+	background: #fff;
+	position: absolute;
+	width: 185px;
+	opacity: 0;
+	transform: scaleY(0);
+	margin: 0;
+	left: -15px;
+}
+
+.projects_submenu a {
+	color: #777;
+	text-align: left;
+	padding: 12px 15px;
+}
+
+.projects_submenu:last-child { 
+	border-bottom-style: solid;
+	border-bottom-color: #4d96f3;
+	border-bottom-width: 4px;
+}
+
+.topmenu > li:hover .projects_submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+
+.career_submenu {
+	text-transform: none;
+	background: #fff;
+	position: absolute;
+	width: 185px;
+	opacity: 0;
+	transform: scaleY(0);
+	margin: 0;
+	left: -15px;
+}
+
+.career_submenu a {
+	color: #777;
+	text-align: left;
+	padding: 12px 15px;
+}
+
+.career_submenu:last-child { 
+	border-bottom-style: solid;
+	border-bottom-color: #4d96f3;
+	border-bottom-width: 4px;
+}
+
+.topmenu > li:hover .career_submenu {
+  opacity: 1;
+  transform: scaleY(1);
+}
+*/
+
+#content_container {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#articles {
+	
+}
+
+.underheader_picture img {
+	width: 100%;
+	animation-name: scale;
+    animation-duration: 240s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: 50% 50%
+}
+
+.underheader_picture {
+	overflow: hidden; 
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1.1)
+    }
+    50% {
+        transform: scale(1.4)
+    }
+    100% {
+        transform: scale(1.1)
+    }
+}
+
+.article_about_us {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.article_about_us_header h1 {
+	text-align: center;
+	
+	font-size: 35pt;
+	text-transform: uppercase;
+}
+
+.article_about_us_content {
+	padding: 3% 10% 3% 10%;
+}
+
+.article_about_us_content p {
+	color: #666;
+	font-size: 15pt;
+	line-height: 1.5;
+}
+
+.article_projects {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #fff;
+}
+
+.article_projects img {
+	overflow:hidden;
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+ }
+ 
+.article_projects img:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+}
+
+.article_projects_header h1 {
+	text-align: center;
+	
+	font-size: 35pt;
+	text-transform: uppercase;
+}
+
+.article_projects_content {
+	padding: 3% 10% 3% 10%;
+}
+
+.article_projects_content img {
+	padding-top: 50px;
+}
+
+.article_projects_content p {
+	color: #666;
+	font-size: 15pt;
+	line-height: 1.5;
+}
+
+
+#footer_container {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	background-color: #37474f;
+	color: #bbb;
+}
+
+.copyright p {
+	text-align: center;
+	padding-top: 40px;
+}
